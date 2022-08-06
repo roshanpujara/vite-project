@@ -6,7 +6,7 @@ function UsingUseState(){
     return(
         <div>
             <button onClick={increment}>value increment</button>
-            <h1>{value}</h1>
+            <h1>{value<=0?0:value}</h1>
             <button onClick={decrement}>value decrement</button>
         </div>
     )

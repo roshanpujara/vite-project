@@ -5,7 +5,7 @@ import UsingUseState from './components/UsingUseState'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   
-    // <App />
-    <UsingUseState/>
+    <App />
+    
   
 )
